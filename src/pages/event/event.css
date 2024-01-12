@@ -1,0 +1,222 @@
+.event{
+    /* margin-top: -33px; */
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom, #151430,#231334,#4F1141, #BF0C62);
+}
+
+.event-heading{
+    color: white;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.event-header {
+    color: white;
+    display: flex;
+    /* background-color: #BF0C62; */
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+
+.event-header p{
+    font-size: 20px;
+}
+
+p.event-date
+{ 
+ color: var(--primary-color);
+ font-size: 25px;
+ font-family: cursive
+}
+
+
+
+.event-header span{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.event-header-icon{
+
+    height: 30px;
+    width: auto;
+    color: white;
+    margin-right: 10px;
+    /* background-color: bisque; */
+}
+
+
+/* Event About */
+
+.event-about
+{
+    margin-top: 10%;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+    display: flex;
+}
+
+
+
+.event-about-desc{
+    background: linear-gradient(to bottom, #FF512F,#DD2476);
+}
+
+.event-about-img
+{
+ flex: 0.5;
+ 
+}
+
+.event-about-img img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.event-about-head{
+
+    font-size: 50px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.event-desc-icons{
+    /* background-color: red; */    
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.event-about-p{
+    padding: 15px;
+   
+}
+.event-desc-icon{
+    height: 50px;
+    width: 50px;
+    /* margin-left: 25%; */
+   
+    
+}
+.event-desc-icons span{
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+
+    
+}
+.event-desc-icons span h3{
+
+    margin: 5px;
+
+}
+.event-about-desc{
+    flex: 0.5; 
+}
+
+
+/* What to expect */
+
+.event-expect{
+
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 120px;
+
+}
+
+.event-subhead{
+    font-size: 40px;
+}
+
+.event-expect-items{
+    height: 200px;
+    width: 100%;
+    /* background-color: #151430; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.expect-item-name{
+    font-size: 30px;
+    font-weight: 400;
+    
+    color: #f5795a;
+    
+}
+
+.expect-icon{
+
+    height: 45px;
+    width: 45px;
+
+}
+
+/* Schedule */
+
+.event-schedule{
+
+    width: 90%;
+    margin-left: 5%;
+}
+
+.event-schedule-body{
+
+    width: 100%;
+    height: 500px;
+    /* background-color: #f5795a; */
+    display: flex;
+}
+
+.schedule-dates{
+    flex: 0.1;
+    /* background-color: red; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.schedule-desc{
+
+    flex: 0.9;
+    /* background-color:  blue; */
+
+}
+
+.schedule-desc-box{
+
+    width: 60%;
+    height: 100%;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 5%;
+}
+
+
+.book-btn{
+
+    margin-top: 100px;
+    margin-left: 45%;
+    font-size: 25px;
+    background-color: #f5795a;
+}

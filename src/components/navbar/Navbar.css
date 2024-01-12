@@ -1,0 +1,51 @@
+.navbar{
+
+    width: 100%;
+    height: fit-content;
+
+    border-bottom: 2px solid var(--primary-color);
+    display: flex;
+    margin-bottom: 4px;
+    /* padding-right: 20px; */
+    
+
+    
+}
+
+.navbar-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    
+}
+
+
+
+.navbar-option{
+
+    margin: 0px 12px;
+    font-size: 14px;
+    
+}
+
+.navbar-option:hover{
+    cursor: pointer;
+    border-bottom: 2px solid var(--primary-color);
+
+}
+
+.navbar-usericon{
+
+    width: 35px;
+    height: 35px;
+    margin-right: 30px;
+    margin-left: 10px;
+    
+}
+
+.focus{
+
+    color:#d46948 ;
+    border-bottom: 2px solid var(--primary-color);
+}

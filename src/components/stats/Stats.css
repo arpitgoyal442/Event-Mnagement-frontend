@@ -1,0 +1,33 @@
+
+.stats{
+
+    height: 40vh;
+    width: 100%;
+    margin-top: 160px;
+    /* margin-left: 5%; */
+    background: linear-gradient(to bottom, #f2f2f2, #999999);
+
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats-block{
+    text-align: center;
+    color: rgb(36, 35, 35);
+}
+    
+
+.stats-block img{
+
+    height: 70px;
+    width: auto;
+    
+}
+
+.stats h2{
+    font-weight: 400;
+    
+}
+

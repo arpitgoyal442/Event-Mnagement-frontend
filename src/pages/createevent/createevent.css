@@ -1,0 +1,113 @@
+.createevent{
+
+    width: 100%;
+    height: 90vh;
+    /* background-color:bisque */
+}
+
+.createevent-head{
+
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.createevent-head-left{
+
+    flex: 0.5;
+    /* background-color: blue; */
+    padding-left: 12%;
+    padding-top: 30px;
+}
+
+.createevent-head-left p{
+
+    font-size: 20px;
+}
+
+.createevent-head-right{
+
+    flex: 0.5;
+    /* background-color: yellow; */
+}
+
+.createevent-head-points{
+    margin-top: 90px;
+    /* background-color: aqua; */
+}
+
+.createevent-head-right img{
+
+    border-radius: 100%;
+
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+}
+
+.createevent-head-points li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    
+    margin: 0px;
+    font-size: 22px;
+}
+
+.createevent-head-points li::before {
+    content: "\2022"; /* Unicode character for a solid circle (use other characters or images as needed) */
+    color:var(--primary-color); /* Color of the bullet */
+    font-size: 80px; /* Adjust the size of the bullet */
+    margin-right: 8px;
+  
+  }
+
+  .createevent-tabs{
+
+    width: 70%;
+    margin-left: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+  }
+
+  .createevent-tabs p{
+    color: var(--primary-color);
+  }
+
+  .createevent-tabs p:hover{
+    cursor: pointer;
+
+    border-bottom: 2px solid var(--primary-color);
+    
+  }
+
+  .createevent-form{
+
+    width: 70%;
+    height: auto;
+    margin-left: 10%;
+    /* background-color: black; */
+
+  }
+
+  .pre-nex-btn{
+    margin-top: 40px;
+    width: 100%;
+    /* margin-left: 70%; */
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+  }
+
+  

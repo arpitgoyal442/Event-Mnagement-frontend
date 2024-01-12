@@ -1,0 +1,109 @@
+
+
+.scheduleform{
+    margin-top: 50px;
+}
+
+
+
+.scheduleform-dates{
+   
+    margin-bottom: 10px;
+}
+
+.scheduleform-dates p{
+
+    display: inline;
+}
+
+.date-addicon{
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+}
+
+.scheduleform-adate{
+
+    /* border: 2px solid black; */
+    padding: 10px 0px;
+    /* border-bottom: 2px solid var(--primary-color); */
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    margin-right: 20px;
+    width: fit-content; 
+    color: black;
+   ;
+}
+
+.focusdate{
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.scheduleform-adate:hover{
+
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+
+.scheduleform-selecteddate{
+    margin-top: 50px;
+    width: fit-content;
+    border-bottom: 2px solid gray;
+}
+
+.schedule-adate-crossIcon{
+
+    height: 15px;
+    width: auto;
+    margin-left: -12px;
+    margin-right: 15px;
+    
+
+}
+
+
+
+
+.scheduleform-desc-item{
+
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+.scheduleform label{
+    display: block;
+    margin-bottom: 4px;
+    color: rgb(99, 98, 98);
+}
+
+.scheduleform-desc input{
+
+    /* width:  */
+    font-size: 18px;
+    padding: 5px;
+     height: 30px;
+     color: gray;
+     border-radius: 5px;
+     border: 2px solid rgb(197, 194, 194);
+     /* border-color: rgb(199, 197, 197); */
+ }
+ 
+
+
+ .scheduleform-icons img{
+
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+ }
+
+ 

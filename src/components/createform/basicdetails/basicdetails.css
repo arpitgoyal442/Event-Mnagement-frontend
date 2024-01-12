@@ -1,0 +1,41 @@
+.basicdetail{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.basicdetail label{
+    display: block;
+    margin-bottom: 4px;
+    color: rgb(99, 98, 98);
+}
+
+.basicdetail input{
+
+   width: 90%;
+   font-size: 18px;
+   padding: 5px;
+
+    color: gray;
+    border-radius: 5px;
+    border: 2px solid rgb(197, 194, 194);
+    /* border-color: rgb(199, 197, 197); */
+}
+
+.basicdetail div{
+
+    margin-top: 30px;
+    flex: 0 0 calc(33.33% - 10px);
+}
+
+.basicdetail textarea{
+
+    border: 2px solid rgb(197, 194, 194);
+    border-radius: 5px; 
+    color: gray
+}
