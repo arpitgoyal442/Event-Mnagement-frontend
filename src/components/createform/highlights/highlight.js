@@ -194,10 +194,15 @@ function HighlightForm({ submit, stepNo, setStepNo,formData }) {
 
         let fData=new FormData();
 
-        fData.append('basicDetails',formData.basicDetails);
-        fData.append('schedule',formData.schedule);
-        fData.append('highlight',formData.highlights);
-        fData.append('posterImage',formData.basicDetails.poster)
+        fData.append("jData",JSON.stringify(formData));
+        fData.append('poster',formData.basicDetails.poster);
+
+        artists.forEach((artist)=>{
+
+
+            fData.append('artists',artist.image[0],artist.name)
+
+        })
 
         // console.log(d)
        
